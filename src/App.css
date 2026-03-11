@@ -37,3 +37,19 @@ li{
     background-color: #f4e9f4;
     /* font-size:105px; */
 }
+
+.serviceitem>h2{
+    background-color:purple;
+    color: white;
+text-align: center;
+}
+.serviceitem>p
+{
+    line-height: 25px;
+    word-spacing: 10px;
+}
+h1
+{
+    text-align: center;
+    text-decoration: underline;
+}
