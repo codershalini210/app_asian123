@@ -1,15 +1,28 @@
 import Card from "./components/Card"
 import First from "./components/First"
 import "./App.css"
+import Menubar from "./components/Menubar"
+import Footer from "./components/Footer"
+import { Routes,Route } from "react-router-dom"
+import Home from "./components/Home"
+import About from "./components/About"
+import Contact from "./components/Contact"
+import Gallery from "./components/Gallery"
 export default function App()
 {
   return(
     <>
-<div className="flex"> 
-  <Card title="Web Development" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quod modi minima enim quasi nemo, aut"></Card>
-  <Card title="WEb Design" des=", harum vel veniam repellendus laudantium sequi nihil rerum quia minus impedit nesciunt itaque consequatur!"></Card>
-  <Card title = "Data Analysis" des="dummy , harum vel veniam repellendus laudantium sequi nihil rerum quia minus impedit nesciunt itaque consequatur!"></Card>
-</div>
+    <Menubar></Menubar>
+    <div className="Content">
+<Routes>
+  <Route path="/" element={<Home></Home>}></Route>
+  <Route path="about" element={<About></About>}></Route>
+  <Route path="/contact" element={<Contact></Contact>}></Route>
+  <Route path="/gallery" element={<Gallery></Gallery>}></Route>
+</Routes>
+    </div>
+
+<Footer></Footer>
     {/* <First uname = "Ron" contact="848456454"></First>
     <h1>Welcome to React </h1>
     <First uname="Maria" contact="7897897897"></First>
