@@ -8,6 +8,7 @@ import Home from "./components/Home"
 import About from "./components/About"
 import Contact from "./components/Contact"
 import Gallery from "./components/Gallery"
+import Refeg from "./components/Refeg"
 export default function App()
 {
   return(
@@ -19,6 +20,7 @@ export default function App()
   <Route path="about" element={<About></About>}></Route>
   <Route path="/contact" element={<Contact></Contact>}></Route>
   <Route path="/gallery" element={<Gallery></Gallery>}></Route>
+  <Route path="/Refeg" element={<Refeg></Refeg>}></Route>
 </Routes>
     </div>
 
