@@ -103,3 +103,35 @@ p
     text-align: center;
     margin-top:5px;
 }
+.left
+{
+    width:50%;
+    height: 90dvh;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.right
+{
+    width: 50%;
+    
+}
+.txt
+{
+    /* width:70%; */
+    width: 400px;
+    height:30px;
+    width: 70%;
+}
+label{
+    color:white;
+    width:30%;
+}
+.form-group
+{
+    width:80%;
+    display:flex;
+}
