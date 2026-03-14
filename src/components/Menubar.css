@@ -1,0 +1,52 @@
+.menubar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:50px;
+    padding:6px 40px;
+    background-color:#ac58fc;
+    border-bottom:1px solid #ddd;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Logo */
+.logo{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+.logo img{
+    width:32px;
+    height:32px;
+}
+
+.logo span{
+    font-size:18px;
+    font-weight:600;
+    color:white;
+}
+
+/* Menu */
+.menu-list{
+    list-style:none;
+    display:flex;
+    gap:15px;
+    margin:0;
+    padding:0;
+}
+
+.menu-list li a{
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+    font-weight:500;
+    padding:4px 10px;
+    border-radius:4px;
+    transition:0.3s;
+}
+
+.menu-list li a:hover{
+    background-color:#eb9225;
+    color:white;
+}
